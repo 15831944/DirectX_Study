@@ -9,6 +9,7 @@ public:
 public:
 	bool Init()
 	{	
+		map.insert(make_pair(1, 3));
 		return true;
 	}
 	bool Frame()
