@@ -1,0 +1,24 @@
+Texture2D g_txDiffuse : register(t0);
+SamplerState SamplerLine : register(s0);
+
+struct VS_PC_OUTPUT
+{
+	float4 p : SV_POSITION;
+	float4 c : COLOR0;
+};
+struct VS_OUTPUT
+{
+	float4 p : SV_POSITION;
+	float3 n : NORMAL;
+	float4 c : COLOR0;
+	float2 t : TEXCOORD0;
+};
+float4 PS(VS_OUTPUT vIn) : SV_Target
+{
+	float4 vColor = g_txDiffuse.Sample(SamplerLine, vIn.t);
+	return vColor * vIn.c;
+}
+float4 PSLine(VS_PC_OUTPUT vIn) : SV_Target
+{
+	return vIn.c;
+}

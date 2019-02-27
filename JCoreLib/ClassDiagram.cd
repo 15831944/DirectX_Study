@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JCore" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAABBAQAAAAIAAAAAACEAAABADADAKACE=</HashCode>
+      <FileName>JCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JDevice" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CRAIRAAAABAAJiAAGAAAAACAgACgAkgIADBAABBqAEA=</HashCode>
+      <FileName>JDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JInput" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAABQAAAAAAAAAAIAAEBAADAAAABACABAAAAE=</HashCode>
+      <FileName>JInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSound" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkgAAAAAAAAAgAAAAAAAAAAAAAACAAoBYCAFAABAE=</HashCode>
+      <FileName>JSound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JState" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEBBAEAAAAAAEAQAAAAAAAAAAAAQIgAAAQABIAAAA=</HashCode>
+      <FileName>JState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JTimer" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAIAABIAAAACIAAAAAAAAAUAAAABABQCABAAQAE=</HashCode>
+      <FileName>JTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JWindow" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAQQQAAAAIAAAAAAAAAAAJgDABgoAAc=</HashCode>
+      <FileName>JWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JWrite" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIIAAQAAAAQBgAGAABAICBAABggEABAAIgCIBAAAAA=</HashCode>
+      <FileName>JWrite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector2" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector3" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAQAAAAAAABAAAAIAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector4" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JUtils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JBasis" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACABAAAAE=</HashCode>
+      <FileName>JUtils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="float2" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="float3" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="float4" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JVector.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fRECT" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAQgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>JUtils.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="KeyState" Collapsed="true">
+    <Position X="10" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JInput.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

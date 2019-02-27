@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{aec667b3-3b69-4398-891e-65711c3b9f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{ae3f941d-a84e-43d7-bf1d-6ede77dc8343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{806c369a-da1e-4266-ac6e-63c8cbb35320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{2ec3a429-dabf-405e-98ca-806cc1974586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7a2f0869-b0e1-41ae-b724-0da25e434c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minimap">
+      <UniqueIdentifier>{bde812e1-b957-4d7c-9cb1-964bda2427dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JStd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JDxInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JTexture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JTextureMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JDxObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JDxRT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JVector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="JDxHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JState.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JWrite.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="JWindow.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="JTimer.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="JSound.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="JInput.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="JMap.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JSkyBox.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JBoxShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JPlaneShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JLineShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DxRT.cpp">
+      <Filter>Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JStd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JDxInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JTexture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JTextureMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JDxObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JDxRT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="JState.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JDxHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JWindow.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="JWrite.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="JTimer.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="JSound.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="JInput.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="JShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JMap.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JSkyBox.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JBoxShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JPlaneShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JLineShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DxRT.h">
+      <Filter>Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Data\Shader\shape.psh" />
+    <FxCompile Include="..\..\Data\Shader\shape.vsh" />
+    <FxCompile Include="..\..\Data\Shader\Instance.hlsl" />
+    <FxCompile Include="..\..\Data\Shader\Default.hlsl" />
+  </ItemGroup>
+</Project>

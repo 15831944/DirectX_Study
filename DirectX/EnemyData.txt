@@ -1,0 +1,32 @@
+#ENEMY1SPRITE 2
+892 710
+Enemy1Move 9 ../../Data/bitmap/Enemy.bmp ../../Data/bitmap/Enemy_mask.bmp
+1 95 60 80
+76 100 60 80
+149 97 60 80
+223 100 60 80
+292 98 60 80
+360 97 60 80
+427 96 60 80
+490 96 60 80
+553 96 60 80
+Enemy1Attack 3 ../../Data/bitmap/Enemy.bmp ../../Data/bitmap/Enemy_mask.bmp
+1 182 60 80 
+63 183 80 80
+153 183 85 80
+#ENEMY2SPRITE 2
+892 710
+Enemy2Move 9 ../../Data/bitmap/Enemy.bmp ../../Data/bitmap/Enemy_mask.bmp
+1 444 60 80
+76 450 60 80
+149 446 60 80
+223 448 60 80
+292 446 60 80
+360 446 60 80
+427 446 60 80
+490 446 60 80
+553 446 60 80
+Enemy2Attack 3 ../../Data/bitmap/Enemy.bmp ../../Data/bitmap/Enemy_mask.bmp
+1 182 60 80 
+63 183 80 80
+153 183 85 80

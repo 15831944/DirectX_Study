@@ -1,0 +1,28 @@
+#HEROSPRITE 3
+182 180
+@FemaleIdle 6
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_0.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_1.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_2.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_3.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_4.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Idle/FemaleIdle_5.jpg
+177 191
+@FemaleMove 9
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_0.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_1.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_2.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_3.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_4.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_5.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_6.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_7.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_Move/FemaleMove_8.jpg
+237 228
+@FemaleAttack 6
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_0.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_1.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_2.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_3.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_4.jpg
+../../Data/DNF_Pixel_Art/DarkMagition/Female_MagicAttack_02/FemaleMagicAttak_5.jpg

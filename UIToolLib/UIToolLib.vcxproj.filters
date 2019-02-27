@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="std">
+      <UniqueIdentifier>{c972d591-2c20-4993-910c-522e79c1e250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{d2bb483b-d135-41a7-877d-7dac03b7c08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{85e1dca4-f0be-4010-b2b7-5a4f7be73a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{87382c62-a177-4716-9db2-38a161b8bd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Event">
+      <UniqueIdentifier>{e82d764c-78e1-42f5-9884-878e98da222f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Ctrl">
+      <UniqueIdentifier>{a6942e33-9429-48ef-b621-8b1c76e1d0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Ctrl\소스">
+      <UniqueIdentifier>{91f8f7a7-dba2-4962-be7c-f91efd36deca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Ctrl\헤더">
+      <UniqueIdentifier>{a68895e9-3a14-483c-9791-a1a27879c289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Helper">
+      <UniqueIdentifier>{169557bf-012f-46a8-897b-64cc1127ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Particle">
+      <UniqueIdentifier>{359704e7-bea9-4c32-bb33-1b9713076a79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utillui.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="JState.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="JButtonCtrl.h">
+      <Filter>UI\Ctrl\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="stdui.h">
+      <Filter>std</Filter>
+    </ClInclude>
+    <ClInclude Include="JSliderCtrl.h">
+      <Filter>UI\Ctrl\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="JSpriteCtrl.h">
+      <Filter>UI\Ctrl\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="JDxHelper.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JTexture.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JTextureMgr.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JTransform.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JUI_Input.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JPanel.h">
+      <Filter>UI\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="JLevel.h">
+      <Filter>UI\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="JEvent.h">
+      <Filter>UI\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="JEventList.h">
+      <Filter>UI\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="JPlane.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JSelect.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JModel.h">
+      <Filter>UI\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JImageCtrl.h">
+      <Filter>UI\Ctrl\헤더</Filter>
+    </ClInclude>
+    <ClInclude Include="JShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="JParticle.h">
+      <Filter>UI\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="JParticleSystem.h">
+      <Filter>UI\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="JCheckCtrl.h">
+      <Filter>UI\Ctrl\헤더</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JState.cpp">
+      <Filter>std</Filter>
+    </ClCompile>
+    <ClCompile Include="JImageCtrl.cpp">
+      <Filter>UI\Ctrl\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="JButtonCtrl.cpp">
+      <Filter>UI\Ctrl\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="JSliderCtrl.cpp">
+      <Filter>UI\Ctrl\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="JSpriteCtrl.cpp">
+      <Filter>UI\Ctrl\소스</Filter>
+    </ClCompile>
+    <ClCompile Include="JDxHelper.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JTexture.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JTextureMgr.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JTransform.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JUI_Input.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JPanel.cpp">
+      <Filter>UI\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="JLevel.cpp">
+      <Filter>UI\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="JEvent.cpp">
+      <Filter>UI\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="JPlane.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JSelect.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JModel.cpp">
+      <Filter>UI\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="JParticle.cpp">
+      <Filter>UI\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="JParticleSystem.cpp">
+      <Filter>UI\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="JCheckCtrl.cpp">
+      <Filter>UI\Ctrl\소스</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Data\Shader\DefaultUI.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JAcceptor" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAAAABAAAAAAAAAAAAAQAAAAgAAACABQAAAM=</HashCode>
+      <FileName>JAcceptor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JDebugLog" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAACAAAAACAAAAAAAAQAAAAI=</HashCode>
+      <FileName>JDebugLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JServer" Collapsed="true">
+    <Position X="17" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAQAAABAAAAAAAAAAAAAAAAABAAAACABAAAAg=</HashCode>
+      <FileName>JServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JServerObject" Collapsed="true">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAIAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSingleton&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerStd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSessionMgr" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAkAAAAAAAAAAAAAACAAAIgAAAAAAAAAAA=</HashCode>
+      <FileName>JSessionMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSvrIOCP" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAAAAAAAAAAAAAAAAQACAAAAAAAAAAACAFAAAAA=</HashCode>
+      <FileName>JSvrIOCP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSynchronize" Collapsed="true">
+    <Position X="21.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>JSynchronize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JThread" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAQAACAAAAAAAAAAAAAAAAAAAAQIAAAAAAACAAAI=</HashCode>
+      <FileName>JThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JWorkThread" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABACAAI=</HashCode>
+      <FileName>JWorkThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSession" Collapsed="true">
+    <Position X="21.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAQAAABEAAAAAAAACAAAEBAAAAFAAAABAAQAI=</HashCode>
+      <FileName>JSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JStreamPacket" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAAAAgAAAAAAAACAAAQAAAAAAAACAAgAgg=</HashCode>
+      <FileName>JStreamPacket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JPacketPool" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAAAAAAAAAAAAACAAAAAAAAAACAgAAAA=</HashCode>
+      <FileName>JPacketPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_04e2_1" Collapsed="true">
+    <Position X="13.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_04e2_2" Collapsed="true">
+    <Position X="13.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_04e2_3" Collapsed="true">
+    <Position X="5.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_04e2_4" Collapsed="true">
+    <Position X="9.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_OVERLAPPED2" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PACKET_HEADER" Collapsed="true">
+    <Position X="13.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UPACKET" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="__unnamed_struct_04e2_2" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.5" Y="9.531" />
+        <Point X="13.125" Y="9.531" />
+        <Point X="13.125" Y="7.625" />
+        <Point X="13.875" Y="7.625" />
+        <Point X="13.875" Y="8" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Typedef Name="ReqAccountObtain" Collapsed="true">
+    <Position X="5.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AckAccountObtain" Collapsed="true">
+    <Position X="9.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JProtocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="T_STR" Collapsed="true">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerStd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="W_STR" Collapsed="true">
+    <Position X="21.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerStd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="C_STR" Collapsed="true">
+    <Position X="19.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerStd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="T_STR_VECTOR" Collapsed="true">
+    <Position X="19.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JServerStd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="OVERLAPPEDEX" Collapsed="true">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JSession.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,42 @@
+Texture2D g_txTexture : register(t0);
+Texture2D g_txMaskTexture : register(t1);
+SamplerState sample0 : register(s0);
+
+struct PS_INPUT
+{
+	float4 p : SV_POSITION;
+	float2 t : TEXCOORD0;
+	float4 c : COLOR0;
+};
+
+struct PS_OUTPUT
+{
+	float4 c : SV_TARGET;
+};
+PS_OUTPUT PS1(PS_INPUT vIn)
+{
+	PS_OUTPUT vOut = (PS_OUTPUT)0;
+	float4 vTexColor = g_txTexture.Sample(sample0, vIn.t);
+	float4 vTexMaskColor = g_txMaskTexture.Sample(sample0, vIn.t);
+	vOut.c.r = vTexColor.r;
+	vOut.c.g = vTexColor.g;
+	vOut.c.b = vTexColor.b;
+	vOut.c.a = 1.0f - vTexMaskColor.r;
+	return vOut;
+}
+PS_OUTPUT PS(PS_INPUT vIn)
+{
+	PS_OUTPUT vOut = (PS_OUTPUT)0;
+	float4 vTexColor = g_txTexture.Sample(sample0, vIn.t);
+	vOut.c = vTexColor;
+
+	return vOut;
+}
+PS_OUTPUT PS2(PS_INPUT vIn)
+{
+	PS_OUTPUT vOut = (PS_OUTPUT)0;
+	float4 vTexColor = g_txTexture.Sample(sample0, vIn.t);
+	vOut.c = 1.0f * (1.0f - vTexColor.a) + vTexColor * vTexColor.a;
+
+	return vOut;
+}

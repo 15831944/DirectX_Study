@@ -1,0 +1,21 @@
+500 250
+@Opening 19
+../../Data/Opening/Opening_067.jpg
+../../Data/Opening/Opening_068.jpg
+../../Data/Opening/Opening_069.jpg
+../../Data/Opening/Opening_070.jpg
+../../Data/Opening/Opening_071.jpg
+../../Data/Opening/Opening_072.jpg
+../../Data/Opening/Opening_073.jpg
+../../Data/Opening/Opening_074.jpg
+../../Data/Opening/Opening_075.jpg
+../../Data/Opening/Opening_076.jpg
+../../Data/Opening/Opening_077.jpg
+../../Data/Opening/Opening_078.jpg
+../../Data/Opening/Opening_079.jpg
+../../Data/Opening/Opening_080.jpg
+../../Data/Opening/Opening_081.jpg
+../../Data/Opening/Opening_082.jpg
+../../Data/Opening/Opening_083.jpg
+../../Data/Opening/Opening_084.jpg
+../../Data/Opening/Opening_085.jpg

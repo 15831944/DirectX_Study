@@ -1,0 +1,27 @@
+500 250
+@Opening 25
+../../Data/DJSONA/Opening_f00.jpg
+../../Data/DJSONA/Opening_f01.jpg
+../../Data/DJSONA/Opening_f02.jpg
+../../Data/DJSONA/Opening_f03.jpg
+../../Data/DJSONA/Opening_f04.jpg
+../../Data/DJSONA/Opening_f05.jpg
+../../Data/DJSONA/Opening_f06.jpg
+../../Data/DJSONA/Opening_f07.jpg
+../../Data/DJSONA/Opening_f08.jpg
+../../Data/DJSONA/Opening_f09.jpg
+../../Data/DJSONA/Opening_f10.jpg
+../../Data/DJSONA/Opening_f11.jpg
+../../Data/DJSONA/Opening_f12.jpg
+../../Data/DJSONA/Opening_f13.jpg
+../../Data/DJSONA/Opening_f14.jpg
+../../Data/DJSONA/Opening_f15.jpg
+../../Data/DJSONA/Opening_f16.jpg
+../../Data/DJSONA/Opening_f17.jpg
+../../Data/DJSONA/Opening_f18.jpg
+../../Data/DJSONA/Opening_f19.jpg
+../../Data/DJSONA/Opening_f20.jpg
+../../Data/DJSONA/Opening_f21.jpg
+../../Data/DJSONA/Opening_f22.jpg
+../../Data/DJSONA/Opening_f23.jpg
+../../Data/DJSONA/Opening_f24.jpg

@@ -1,0 +1,3 @@
+#Arrow 1
+50 10
+arrow1 ../../Data/bitmap/Arrow.bmp ../../Data/bitmap/Arrow_mask.bmp

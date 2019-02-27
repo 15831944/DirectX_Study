@@ -1,0 +1,16 @@
+#HEROSPRITE 3
+848 489
+HeroIdle 3 ../../Data/bitmap/Player.bmp ../../Data/bitmap/Player_mask.bmp
+17 421 50 50
+66 421 50 50
+114 421 50 50
+HeroMove 3 ../../Data/bitmap/Player.bmp ../../Data/bitmap/Player_mask.bmp
+18 18 50 50
+66 18 50 50
+166 18 50 50
+HeroAttack 5 ../../Data/bitmap/Player.bmp ../../Data/bitmap/Player_mask.bmp
+114 116 50 50
+162 116 50 50
+18 165 50 50
+67 165 50 50
+115 165 50 50

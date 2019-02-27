@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sample" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAABCCAAAAAAAAAACAQAAAiAAQABgCAxAAgAE=</HashCode>
+      <FileName>Sample.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JArrow" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAQAAAAAAAAAgAAAAAAAAAAQAAE=</HashCode>
+      <FileName>JArrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JBitmap" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAEAAAAJgAAAAAAhAgAAAAAAAAAABASABQAAAE=</HashCode>
+      <FileName>JBitmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JBitmapMgr" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAEBBAAAAAAEJACABAAAAE=</HashCode>
+      <FileName>JBitmapMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JCore" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAACAAAAAABABQAAEAIAAAAAACAAAABACADQIACE=</HashCode>
+      <FileName>JCore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JObject" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAIAAAAAABAQAIAEkIAQAQCEAAAAKRCCABAAIAM=</HashCode>
+      <FileName>JObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JPlayer" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAABQAAAAAAAAAAACIAEAAAACAGAAAAAAQM=</HashCode>
+      <FileName>JPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSound" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkgAAAAAAAAAgAAAAAAAAAAAAAACAAoBYCAFAABAE=</HashCode>
+      <FileName>JSound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JSprite" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAAAAAQAAACgAABAAAAAgAAAAACAAALAAAAAAAAE=</HashCode>
+      <FileName>JSprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JFiniteState" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAGAAAAAAAAAAAAAIAAAAAAAAAAMAAIABAAAAAAA=</HashCode>
+      <FileName>JFiniteState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JFiniteStateMachine" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAQAAQAAAAAAAAAAAAIAAAARQBAAiAA=</HashCode>
+      <FileName>JFiniteStateMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JFSMMgr" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAQACAAAACAAAAAAIEAAEAAAAAAAACABAAAAA=</HashCode>
+      <FileName>JFiniteStateMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JAttackAction" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>JAttackAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JMoveAction" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAAABAgAAAAAAAIABAAAAAAAACAAAAAA=</HashCode>
+      <FileName>JMoveAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JStandAction" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAIAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>JStandAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JEnemyState" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAICIAAQAAgAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JEnemy" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAhAIAACAQAAgAAAAAAREAAACBQAAQAAAAAAgk=</HashCode>
+      <FileName>JEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PlayerState" Collapsed="true">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>JPlayer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="State" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAKAABAAAAAA=</HashCode>
+      <FileName>JFiniteState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Event" Collapsed="true">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAA=</HashCode>
+      <FileName>JFiniteState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EnemyState" Collapsed="true">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABABAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>JEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
